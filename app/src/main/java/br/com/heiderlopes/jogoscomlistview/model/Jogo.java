@@ -14,7 +14,10 @@ public class Jogo {
 
     //Criamos um objeto informando o id, nome, anoLancamento e o resourceId da Imagem
     public Jogo(int id, String nome, int anoLancamento, int resourceIdImagem) {
-
+        this.id = id;
+        this.nome = nome;
+        this.anoLancamento = anoLancamento;
+        this.resourceIdImagem = resourceIdImagem;
     }
 
     public int getId() {

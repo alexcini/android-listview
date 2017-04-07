@@ -40,14 +40,14 @@ public class ListaJogosActivity extends AppCompatActivity {
     private List<Jogo> getListaJogos() {
         List<Jogo> jogos = new ArrayList<>();
         jogos.add(new Jogo(1, "God Of War", 2014, R.drawable.godofwar));
-        jogos.add(new Jogo(2, "GTA V", 2014, R.drawable.godofwar));
-        jogos.add(new Jogo(3, "Horizon Zero Dawn", 2017, R.drawable.godofwar));
-        jogos.add(new Jogo(4, "Metal Gear Solid V", 2014, R.drawable.godofwar));
-        jogos.add(new Jogo(5, "Mortal Kombat XL", 2016, R.drawable.godofwar));
-        jogos.add(new Jogo(6, "Resident Evil", 2017, R.drawable.godofwar));
-        jogos.add(new Jogo(7, "The Witcher", 2014, R.drawable.godofwar));
-        jogos.add(new Jogo(8, "Uncharted 4", 2015, R.drawable.godofwar));
-        jogos.add(new Jogo(9, "Watch Dogs 2", 2016, R.drawable.godofwar));
+        jogos.add(new Jogo(2, "GTA V", 2014, R.drawable.gtav));
+        jogos.add(new Jogo(3, "Horizon Zero Dawn", 2017, R.drawable.horizonzerodawn));
+        jogos.add(new Jogo(4, "Metal Gear Solid V", 2014, R.drawable.metalgearsolidv));
+        jogos.add(new Jogo(5, "Mortal Kombat XL", 2016, R.drawable.mortalkombatxl));
+        jogos.add(new Jogo(6, "Resident Evil", 2017, R.drawable.residentevil));
+        jogos.add(new Jogo(7, "The Witcher", 2014, R.drawable.thewitcher));
+        jogos.add(new Jogo(8, "Uncharted 4", 2015, R.drawable.uncharted4));
+        jogos.add(new Jogo(9, "Watch Dogs 2", 2016, R.drawable.watchdogs2));
         return jogos;
     }
 }

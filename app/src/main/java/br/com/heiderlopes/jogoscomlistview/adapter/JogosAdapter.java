@@ -62,7 +62,7 @@ public class JogosAdapter extends BaseAdapter {
         if(convertView == null) {
             view = LayoutInflater.from(context).inflate(R.layout.jogo_item, parent, false);
             holder = new JogoViewHolder(view);
-            view.setTag(view);
+            view.setTag(holder);
         } else {
             view = convertView;
             holder = (JogoViewHolder)view.getTag();
